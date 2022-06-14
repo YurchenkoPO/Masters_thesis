@@ -1,0 +1,793 @@
+model,target_col,n_experiments,anom_coeff,num_anomalies,in_a_row,interval_width,f1_score,precision,recall
+fbprophet,total,50,0.833,1,False,0.9,0.06835066864784548,0.03691813804173355,0.46
+fbprophetGamma,total,50,0.833,1,False,0.9,0.07692307692307693,1.0,0.04
+fbprophetNB,total,50,0.833,1,False,0.9,0.05555555555555555,0.09090909090909091,0.04
+fbprophet,total,50,0.66,1,False,0.9,0.13023255813953488,0.07058823529411765,0.84
+fbprophetGamma,total,50,0.66,1,False,0.9,0.4615384615384615,1.0,0.3
+fbprophetNB,total,50,0.66,1,False,0.9,0.5333333333333332,0.6,0.48
+fbprophet,total,50,0,1,False,0.9,0.20040080160320642,0.111358574610245,1.0
+fbprophetGamma,total,50,0,1,False,0.9,1.0,1.0,1.0
+fbprophetNB,total,50,0,1,False,0.9,0.9803921568627451,0.9615384615384616,1.0
+fbprophet,total,50,0,3,True,0.9,0.591715976331361,0.42016806722689076,1.0
+fbprophetGamma,total,50,0,3,True,0.9,0.9671052631578947,0.9545454545454546,0.98
+fbprophetNB,total,50,0,3,True,0.9,1.0,1.0,1.0
+fbprophet,seat,50,0.833,1,False,0.9,0.04581901489117984,0.024301336573511544,0.4
+fbprophetGamma,seat,50,0.833,1,False,0.9,0.1111111111111111,0.75,0.06
+fbprophetNB,seat,50,0.833,1,False,0.9,0.058823529411764705,0.1111111111111111,0.04
+fbprophet,seat,50,0.66,1,False,0.9,0.10550996483001172,0.05603985056039851,0.9
+fbprophetGamma,seat,50,0.66,1,False,0.9,0.43750000000000006,1.0,0.28
+fbprophetNB,seat,50,0.66,1,False,0.9,0.5348837209302325,0.6388888888888888,0.46
+fbprophet,seat,50,0,1,False,0.9,0.16129032258064516,0.08771929824561403,1.0
+fbprophetGamma,seat,50,0,1,False,0.9,0.98989898989899,1.0,0.98
+fbprophetNB,seat,50,0,1,False,0.9,0.9803921568627451,0.9615384615384616,1.0
+fbprophet,seat,50,0,3,True,0.9,0.6147540983606558,0.4437869822485207,1.0
+fbprophetGamma,seat,50,0,3,True,0.9,0.9490445859872612,0.9085365853658537,0.9933333333333333
+fbprophetNB,seat,50,0,3,True,0.9,1.0,1.0,1.0
+fbprophet,gift_certificate,50,0.833,1,False,0.9,0.0,0.0,0.0
+fbprophetGamma,gift_certificate,50,0.833,1,False,0.9,0.018045112781954885,0.00975609756097561,0.12
+fbprophetNB,gift_certificate,50,0.833,1,False,0.9,0.0182648401826484,0.009884678747940691,0.12
+fbprophet,gift_certificate,50,0.66,1,False,0.9,0.0,0.0,0.0
+fbprophetGamma,gift_certificate,50,0.66,1,False,0.9,0.008888888888888887,0.0048,0.06
+fbprophetNB,gift_certificate,50,0.66,1,False,0.9,0.024242424242424242,0.013114754098360656,0.16
+fbprophet,gift_certificate,50,0,1,False,0.9,0.0792079207920792,0.0784313725490196,0.08
+fbprophetGamma,gift_certificate,50,0,1,False,0.9,0.07079646017699115,0.03821656050955414,0.48
+fbprophetNB,gift_certificate,50,0,1,False,0.9,0.09171597633136094,0.04952076677316294,0.62
+fbprophet,gift_certificate,50,0,3,True,0.9,0.30136986301369867,0.4782608695652174,0.22
+fbprophetGamma,gift_certificate,50,0,3,True,0.9,0.2870264064293915,0.17337031900138697,0.8333333333333334
+fbprophetNB,gift_certificate,50,0,3,True,0.9,0.2860548271752086,0.1741654571843251,0.8
+fbprophet,"('AAQ-DME', 'auto_checkin')",50,0.833,1,False,0.9,0.0,0.0,0.0
+fbprophetGamma,"('AAQ-DME', 'auto_checkin')",50,0.833,1,False,0.9,0.014807959278111986,0.007579346281383231,0.32
+fbprophetNB,"('AAQ-DME', 'auto_checkin')",50,0.833,1,False,0.9,0.009003215434083603,0.004651162790697674,0.14
+fbprophet,"('AAQ-DME', 'auto_checkin')",50,0.66,1,False,0.9,0.0,0.0,0.0
+fbprophetGamma,"('AAQ-DME', 'auto_checkin')",50,0.66,1,False,0.9,0.007434944237918215,0.003805899143672693,0.16
+fbprophetNB,"('AAQ-DME', 'auto_checkin')",50,0.66,1,False,0.9,0.015018773466833541,0.007751937984496124,0.24
+fbprophet,"('AAQ-DME', 'auto_checkin')",50,0,1,False,0.9,0.02040816326530612,0.0136986301369863,0.04
+fbprophetGamma,"('AAQ-DME', 'auto_checkin')",50,0,1,False,0.9,0.02036094400740398,0.010421601136901942,0.44
+fbprophetNB,"('AAQ-DME', 'auto_checkin')",50,0,1,False,0.9,0.03143418467583497,0.016249153689911984,0.48
+fbprophet,"('AAQ-DME', 'auto_checkin')",50,0,3,True,0.9,0.06802721088435373,0.06944444444444445,0.06666666666666667
+fbprophetGamma,"('AAQ-DME', 'auto_checkin')",50,0,3,True,0.9,0.10149253731343283,0.05421412300683371,0.7933333333333333
+fbprophetNB,"('AAQ-DME', 'auto_checkin')",50,0,3,True,0.9,0.13575757575757577,0.07466666666666667,0.7466666666666667
+fbprophet,"('DME-GDZ', 'auto_checkin')",50,0.833,1,False,0.9,0.0,0.0,0.0
+fbprophetGamma,"('DME-GDZ', 'auto_checkin')",50,0.833,1,False,0.9,0.008283132530120483,0.00422102839600921,0.22
+fbprophetNB,"('DME-GDZ', 'auto_checkin')",50,0.833,1,False,0.9,0.01703940362087327,0.008998875140607425,0.16
+fbprophet,"('DME-GDZ', 'auto_checkin')",50,0.66,1,False,0.9,0.0,0.0,0.0
+fbprophetGamma,"('DME-GDZ', 'auto_checkin')",50,0.66,1,False,0.9,0.009070294784580499,0.004622496147919877,0.24
+fbprophetNB,"('DME-GDZ', 'auto_checkin')",50,0.66,1,False,0.9,0.01483050847457627,0.007829977628635347,0.14
+fbprophet,"('DME-GDZ', 'auto_checkin')",50,0,1,False,0.9,0.0,0.0,0.0
+fbprophetGamma,"('DME-GDZ', 'auto_checkin')",50,0,1,False,0.9,0.016591251885369532,0.008455034588777863,0.44
+fbprophetNB,"('DME-GDZ', 'auto_checkin')",50,0,1,False,0.9,0.03177966101694915,0.016778523489932886,0.3
+fbprophet,"('DME-GDZ', 'auto_checkin')",50,0,3,True,0.9,0.037037037037037035,0.25,0.02
+fbprophetGamma,"('DME-GDZ', 'auto_checkin')",50,0,3,True,0.9,0.08011343495214462,0.042306252339947586,0.7533333333333333
+fbprophetNB,"('DME-GDZ', 'auto_checkin')",50,0,3,True,0.9,0.1050656660412758,0.0611353711790393,0.37333333333333335
+fbprophet,"('DME-ORY', 'seat')",50,0.833,1,False,0.9,0.0,0.0,0.0
+fbprophetGamma,"('DME-ORY', 'seat')",50,0.833,1,False,0.9,0.009090909090909092,0.004651162790697674,0.2
+fbprophetNB,"('DME-ORY', 'seat')",50,0.833,1,False,0.9,0.008123476848090982,0.004233700254022015,0.1
+fbprophet,"('DME-ORY', 'seat')",50,0.66,1,False,0.9,0.0,0.0,0.0
+fbprophetGamma,"('DME-ORY', 'seat')",50,0.66,1,False,0.9,0.009999999999999998,0.0051162790697674414,0.22
+fbprophetNB,"('DME-ORY', 'seat')",50,0.66,1,False,0.9,0.013157894736842105,0.00686106346483705,0.16
+fbprophet,"('DME-ORY', 'seat')",50,0,1,False,0.9,0.01923076923076923,0.018518518518518517,0.02
+fbprophetGamma,"('DME-ORY', 'seat')",50,0,1,False,0.9,0.012709940989559694,0.006502554575011612,0.28
+fbprophetNB,"('DME-ORY', 'seat')",50,0,1,False,0.9,0.027709861450692746,0.014443500424808835,0.34
+fbprophet,"('DME-ORY', 'seat')",50,0,3,True,0.9,0.041884816753926704,0.0975609756097561,0.02666666666666667
+fbprophetGamma,"('DME-ORY', 'seat')",50,0,3,True,0.9,0.09735627360469996,0.05194805194805195,0.7733333333333333
+fbprophetNB,"('DME-ORY', 'seat')",50,0,3,True,0.9,0.09863429438543247,0.05565068493150685,0.43333333333333335
+fbprophet,total,50,0.833,1,False,0.91,0.05676126878130217,0.030965391621129327,0.34
+fbprophetGamma,total,50,0.833,1,False,0.91,0.0392156862745098,1.0,0.02
+fbprophetNB,total,50,0.833,1,False,0.91,0.0,0.0,0.0
+fbprophet,total,50,0.66,1,False,0.91,0.14968152866242035,0.08131487889273356,0.94
+fbprophetGamma,total,50,0.66,1,False,0.91,0.48484848484848486,1.0,0.32
+fbprophetNB,total,50,0.66,1,False,0.91,0.46913580246913583,0.6129032258064516,0.38
+fbprophet,total,50,0,1,False,0.91,0.22988505747126434,0.12987012987012986,1.0
+fbprophetGamma,total,50,0,1,False,0.91,1.0,1.0,1.0
+fbprophetNB,total,50,0,1,False,0.91,1.0,1.0,1.0
+fbprophet,total,50,0,3,True,0.91,0.6048387096774194,0.43352601156069365,1.0
+fbprophetGamma,total,50,0,3,True,0.91,0.9797297297297298,0.9931506849315068,0.9666666666666667
+fbprophetNB,total,50,0,3,True,0.91,1.0,1.0,1.0
+fbprophet,seat,50,0.833,1,False,0.91,0.05597964376590331,0.029891304347826088,0.44
+fbprophetGamma,seat,50,0.833,1,False,0.91,0.14814814814814814,1.0,0.08
+fbprophetNB,seat,50,0.833,1,False,0.91,0.03448275862068966,0.125,0.02
+fbprophet,seat,50,0.66,1,False,0.91,0.10592686002522068,0.05652759084791386,0.84
+fbprophetGamma,seat,50,0.66,1,False,0.91,0.3870967741935484,1.0,0.24
+fbprophetNB,seat,50,0.66,1,False,0.91,0.4931506849315068,0.782608695652174,0.36
+fbprophet,seat,50,0,1,False,0.91,0.18484288354898337,0.10183299389002037,1.0
+fbprophetGamma,seat,50,0,1,False,0.91,0.98989898989899,1.0,0.98
+fbprophetNB,seat,50,0,1,False,0.91,1.0,1.0,1.0
+fbprophet,seat,50,0,3,True,0.91,0.6109979633401221,0.4398826979472141,1.0
+fbprophetGamma,seat,50,0,3,True,0.91,0.9646302250803859,0.9316770186335404,1.0
+fbprophetNB,seat,50,0,3,True,0.91,1.0,1.0,1.0
+fbprophet,gift_certificate,50,0.833,1,False,0.91,0.0,0.0,0.0
+fbprophetGamma,gift_certificate,50,0.833,1,False,0.91,0.00977198697068404,0.005319148936170213,0.06
+fbprophetNB,gift_certificate,50,0.833,1,False,0.91,0.03424657534246576,0.018726591760299626,0.2
+fbprophet,gift_certificate,50,0.66,1,False,0.91,0.0,0.0,0.0
+fbprophetGamma,gift_certificate,50,0.66,1,False,0.91,0.006578947368421052,0.0035842293906810036,0.04
+fbprophetNB,gift_certificate,50,0.66,1,False,0.91,0.03103448275862069,0.016981132075471698,0.18
+fbprophet,gift_certificate,50,0,1,False,0.91,0.09876543209876543,0.12903225806451613,0.08
+fbprophetGamma,gift_certificate,50,0,1,False,0.91,0.07779578606158832,0.042328042328042326,0.48
+fbprophetNB,gift_certificate,50,0,1,False,0.91,0.11149825783972125,0.061068702290076333,0.64
+fbprophet,gift_certificate,50,0,3,True,0.91,0.43062200956937796,0.7627118644067796,0.3
+fbprophetGamma,gift_certificate,50,0,3,True,0.91,0.3220125786163522,0.19844961240310077,0.8533333333333334
+fbprophetNB,gift_certificate,50,0,3,True,0.91,0.33602150537634407,0.21043771043771045,0.8333333333333334
+fbprophet,"('AAQ-DME', 'auto_checkin')",50,0.833,1,False,0.91,0.011834319526627219,0.008403361344537815,0.02
+fbprophetGamma,"('AAQ-DME', 'auto_checkin')",50,0.833,1,False,0.91,0.011121408711770156,0.0056925996204933585,0.24
+fbprophetNB,"('AAQ-DME', 'auto_checkin')",50,0.833,1,False,0.91,0.012396694214876033,0.006419400855920114,0.18
+fbprophet,"('AAQ-DME', 'auto_checkin')",50,0.66,1,False,0.91,0.0,0.0,0.0
+fbprophetGamma,"('AAQ-DME', 'auto_checkin')",50,0.66,1,False,0.91,0.0074836295603367626,0.0038314176245210726,0.16
+fbprophetNB,"('AAQ-DME', 'auto_checkin')",50,0.66,1,False,0.91,0.015873015873015876,0.008233532934131737,0.22
+fbprophet,"('AAQ-DME', 'auto_checkin')",50,0,1,False,0.91,0.012499999999999999,0.00909090909090909,0.02
+fbprophetGamma,"('AAQ-DME', 'auto_checkin')",50,0,1,False,0.91,0.022419430172816442,0.011477761836441894,0.48
+fbprophetNB,"('AAQ-DME', 'auto_checkin')",50,0,1,False,0.91,0.040249826509368494,0.020848310567936738,0.58
+fbprophet,"('AAQ-DME', 'auto_checkin')",50,0,3,True,0.91,0.0326530612244898,0.042105263157894736,0.02666666666666667
+fbprophetGamma,"('AAQ-DME', 'auto_checkin')",50,0,3,True,0.91,0.09973980919340851,0.05333951762523191,0.7666666666666667
+fbprophetNB,"('AAQ-DME', 'auto_checkin')",50,0,3,True,0.91,0.13633355393778954,0.07567964731814843,0.6866666666666666
+fbprophet,"('DME-GDZ', 'auto_checkin')",50,0.833,1,False,0.91,0.0,0.0,0.0
+fbprophetGamma,"('DME-GDZ', 'auto_checkin')",50,0.833,1,False,0.91,0.009486166007905137,0.004838709677419355,0.24
+fbprophetNB,"('DME-GDZ', 'auto_checkin')",50,0.833,1,False,0.91,0.01658767772511848,0.008816120906801008,0.14
+fbprophet,"('DME-GDZ', 'auto_checkin')",50,0.66,1,False,0.91,0.0,0.0,0.0
+fbprophetGamma,"('DME-GDZ', 'auto_checkin')",50,0.66,1,False,0.91,0.009382329945269741,0.004784688995215311,0.24
+fbprophetNB,"('DME-GDZ', 'auto_checkin')",50,0.66,1,False,0.91,0.009535160905840286,0.005069708491761723,0.08
+fbprophet,"('DME-GDZ', 'auto_checkin')",50,0,1,False,0.91,0.0,0.0,0.0
+fbprophetGamma,"('DME-GDZ', 'auto_checkin')",50,0,1,False,0.91,0.016489988221436984,0.00841009211053264,0.42
+fbprophetNB,"('DME-GDZ', 'auto_checkin')",50,0,1,False,0.91,0.03290246768507639,0.017478152309612985,0.28
+fbprophet,"('DME-GDZ', 'auto_checkin')",50,0,3,True,0.91,0.0,0.0,0.0
+fbprophetGamma,"('DME-GDZ', 'auto_checkin')",50,0,3,True,0.91,0.08105147864184008,0.04287369640787949,0.74
+fbprophetNB,"('DME-GDZ', 'auto_checkin')",50,0,3,True,0.91,0.11258955987717502,0.06650544135429262,0.36666666666666664
+fbprophet,"('DME-ORY', 'seat')",50,0.833,1,False,0.91,0.0,0.0,0.0
+fbprophetGamma,"('DME-ORY', 'seat')",50,0.833,1,False,0.91,0.006363636363636364,0.0032558139534883722,0.14
+fbprophetNB,"('DME-ORY', 'seat')",50,0.833,1,False,0.91,0.0054694621695533276,0.0028653295128939827,0.06
+fbprophet,"('DME-ORY', 'seat')",50,0.66,1,False,0.91,0.0,0.0,0.0
+fbprophetGamma,"('DME-ORY', 'seat')",50,0.66,1,False,0.91,0.009999999999999998,0.0051162790697674414,0.22
+fbprophetNB,"('DME-ORY', 'seat')",50,0.66,1,False,0.91,0.00927643784786642,0.0048638132295719845,0.1
+fbprophet,"('DME-ORY', 'seat')",50,0,1,False,0.91,0.0,0.0,0.0
+fbprophetGamma,"('DME-ORY', 'seat')",50,0,1,False,0.91,0.015447523852794184,0.00790330079033008,0.34
+fbprophetNB,"('DME-ORY', 'seat')",50,0,1,False,0.91,0.03133640552995392,0.01642512077294686,0.34
+fbprophet,"('DME-ORY', 'seat')",50,0,3,True,0.91,0.03389830508474577,0.1111111111111111,0.02
+fbprophetGamma,"('DME-ORY', 'seat')",50,0,3,True,0.91,0.09862097785206851,0.05260811413285778,0.7866666666666666
+fbprophetNB,"('DME-ORY', 'seat')",50,0,3,True,0.91,0.078125,0.04491017964071856,0.3
+fbprophet,total,50,0.833,1,False,0.92,0.07899461400359067,0.04339250493096647,0.44
+fbprophetGamma,total,50,0.833,1,False,0.92,0.07692307692307693,1.0,0.04
+fbprophetNB,total,50,0.833,1,False,0.92,0.0,0.0,0.0
+fbprophet,total,50,0.66,1,False,0.92,0.15985130111524162,0.08811475409836066,0.86
+fbprophetGamma,total,50,0.66,1,False,0.92,0.43750000000000006,1.0,0.28
+fbprophetNB,total,50,0.66,1,False,0.92,0.5675675675675675,0.875,0.42
+fbprophet,total,50,0,1,False,0.92,0.25641025641025644,0.14705882352941177,1.0
+fbprophetGamma,total,50,0,1,False,0.92,1.0,1.0,1.0
+fbprophetNB,total,50,0,1,False,0.92,0.98989898989899,1.0,0.98
+fbprophet,total,50,0,3,True,0.92,0.6237006237006237,0.45317220543806647,1.0
+fbprophetGamma,total,50,0,3,True,0.92,1.0,1.0,1.0
+fbprophetNB,total,50,0,3,True,0.92,0.9966555183946488,1.0,0.9933333333333333
+fbprophet,seat,50,0.833,1,False,0.92,0.046961325966850834,0.025222551928783383,0.34
+fbprophetGamma,seat,50,0.833,1,False,0.92,0.21428571428571425,1.0,0.12
+fbprophetNB,seat,50,0.833,1,False,0.92,0.0,0.0,0.0
+fbprophet,seat,50,0.66,1,False,0.92,0.11948790896159318,0.06431852986217458,0.84
+fbprophetGamma,seat,50,0.66,1,False,0.92,0.18181818181818182,1.0,0.1
+fbprophetNB,seat,50,0.66,1,False,0.92,0.3548387096774193,0.9166666666666666,0.22
+fbprophet,seat,50,0,1,False,0.92,0.1996007984031936,0.11086474501108648,1.0
+fbprophetGamma,seat,50,0,1,False,0.92,0.98989898989899,1.0,0.98
+fbprophetNB,seat,50,0,1,False,0.92,1.0,1.0,1.0
+fbprophet,seat,50,0,3,True,0.92,0.6607929515418501,0.4934210526315789,1.0
+fbprophetGamma,seat,50,0,3,True,0.92,0.9765886287625419,0.9798657718120806,0.9733333333333334
+fbprophetNB,seat,50,0,3,True,0.92,1.0,1.0,1.0
+fbprophet,gift_certificate,50,0.833,1,False,0.92,0.0,0.0,0.0
+fbprophetGamma,gift_certificate,50,0.833,1,False,0.92,0.007017543859649123,0.0038461538461538464,0.04
+fbprophetNB,gift_certificate,50,0.833,1,False,0.92,0.01702127659574468,0.009523809523809525,0.08
+fbprophet,gift_certificate,50,0.66,1,False,0.92,0.0,0.0,0.0
+fbprophetGamma,gift_certificate,50,0.66,1,False,0.92,0.007130124777183601,0.003913894324853229,0.04
+fbprophetNB,gift_certificate,50,0.66,1,False,0.92,0.02032520325203252,0.011312217194570135,0.1
+fbprophet,gift_certificate,50,0,1,False,0.92,0.13114754098360654,0.36363636363636365,0.08
+fbprophetGamma,gift_certificate,50,0,1,False,0.92,0.08013937282229963,0.04389312977099236,0.46
+fbprophetNB,gift_certificate,50,0,1,False,0.92,0.126232741617357,0.0700218818380744,0.64
+fbprophet,gift_certificate,50,0,3,True,0.92,0.32085561497326204,0.8108108108108109,0.2
+fbprophetGamma,gift_certificate,50,0,3,True,0.92,0.32266666666666666,0.20166666666666666,0.8066666666666666
+fbprophetNB,gift_certificate,50,0,3,True,0.92,0.3779761904761904,0.24329501915708812,0.8466666666666667
+fbprophet,"('AAQ-DME', 'auto_checkin')",50,0.833,1,False,0.92,0.0,0.0,0.0
+fbprophetGamma,"('AAQ-DME', 'auto_checkin')",50,0.833,1,False,0.92,0.005649717514124295,0.0028929604628736743,0.12
+fbprophetNB,"('AAQ-DME', 'auto_checkin')",50,0.833,1,False,0.92,0.018706157443491817,0.009732360097323601,0.24
+fbprophet,"('AAQ-DME', 'auto_checkin')",50,0.66,1,False,0.92,0.03125,0.02564102564102564,0.04
+fbprophetGamma,"('AAQ-DME', 'auto_checkin')",50,0.66,1,False,0.92,0.009487666034155597,0.004859086491739553,0.2
+fbprophetNB,"('AAQ-DME', 'auto_checkin')",50,0.66,1,False,0.92,0.017391304347826087,0.00905349794238683,0.22
+fbprophet,"('AAQ-DME', 'auto_checkin')",50,0,1,False,0.92,0.015503875968992248,0.012658227848101266,0.02
+fbprophetGamma,"('AAQ-DME', 'auto_checkin')",50,0,1,False,0.92,0.020696142991533398,0.010597302504816955,0.44
+fbprophetNB,"('AAQ-DME', 'auto_checkin')",50,0,1,False,0.92,0.03824701195219123,0.01991701244813278,0.48
+fbprophet,"('AAQ-DME', 'auto_checkin')",50,0,3,True,0.92,0.008968609865470852,0.0136986301369863,0.006666666666666667
+fbprophetGamma,"('AAQ-DME', 'auto_checkin')",50,0,3,True,0.92,0.1039647577092511,0.05566037735849057,0.7866666666666666
+fbprophetNB,"('AAQ-DME', 'auto_checkin')",50,0,3,True,0.92,0.1303724928366762,0.07303370786516854,0.6066666666666667
+fbprophet,"('DME-GDZ', 'auto_checkin')",50,0.833,1,False,0.92,0.0,0.0,0.0
+fbprophetGamma,"('DME-GDZ', 'auto_checkin')",50,0.833,1,False,0.92,0.010492332526230832,0.005354200988467875,0.26
+fbprophetNB,"('DME-GDZ', 'auto_checkin')",50,0.833,1,False,0.92,0.00273224043715847,0.001466275659824047,0.02
+fbprophet,"('DME-GDZ', 'auto_checkin')",50,0.66,1,False,0.92,0.0,0.0,0.0
+fbprophetGamma,"('DME-GDZ', 'auto_checkin')",50,0.66,1,False,0.92,0.01151789387083505,0.005879882402351953,0.28
+fbprophetNB,"('DME-GDZ', 'auto_checkin')",50,0.66,1,False,0.92,0.013513513513513513,0.007246376811594203,0.1
+fbprophet,"('DME-GDZ', 'auto_checkin')",50,0,1,False,0.92,0.0,0.0,0.0
+fbprophetGamma,"('DME-GDZ', 'auto_checkin')",50,0,1,False,0.92,0.01626677511183408,0.008302200083022002,0.4
+fbprophetNB,"('DME-GDZ', 'auto_checkin')",50,0,1,False,0.92,0.027063599458728015,0.01451378809869376,0.2
+fbprophet,"('DME-GDZ', 'auto_checkin')",50,0,3,True,0.92,0.0,0.0,0.0
+fbprophetGamma,"('DME-GDZ', 'auto_checkin')",50,0,3,True,0.92,0.08666164280331576,0.045926517571884984,0.7666666666666667
+fbprophetNB,"('DME-GDZ', 'auto_checkin')",50,0,3,True,0.92,0.1069767441860465,0.0647887323943662,0.30666666666666664
+fbprophet,"('DME-ORY', 'seat')",50,0.833,1,False,0.92,0.0,0.0,0.0
+fbprophetGamma,"('DME-ORY', 'seat')",50,0.833,1,False,0.92,0.009999999999999998,0.0051162790697674414,0.22
+fbprophetNB,"('DME-ORY', 'seat')",50,0.833,1,False,0.92,0.008574490889603431,0.004530011325028313,0.08
+fbprophet,"('DME-ORY', 'seat')",50,0.66,1,False,0.92,0.0,0.0,0.0
+fbprophetGamma,"('DME-ORY', 'seat')",50,0.66,1,False,0.92,0.007279344858962694,0.0037243947858473,0.16
+fbprophetNB,"('DME-ORY', 'seat')",50,0.66,1,False,0.92,0.01288936627282492,0.00681044267877412,0.12
+fbprophet,"('DME-ORY', 'seat')",50,0,1,False,0.92,0.0,0.0,0.0
+fbprophetGamma,"('DME-ORY', 'seat')",50,0,1,False,0.92,0.018181818181818184,0.009302325581395349,0.4
+fbprophetNB,"('DME-ORY', 'seat')",50,0,1,False,0.92,0.03659849300322929,0.019340159271899887,0.34
+fbprophet,"('DME-ORY', 'seat')",50,0,3,True,0.92,0.0,0.0,0.0
+fbprophetGamma,"('DME-ORY', 'seat')",50,0,3,True,0.92,0.10016835016835017,0.05345911949685535,0.7933333333333333
+fbprophetNB,"('DME-ORY', 'seat')",50,0,3,True,0.92,0.08602150537634409,0.050400916380297825,0.29333333333333333
+fbprophet,total,50,0.833,1,False,0.93,0.07835051546391752,0.04367816091954023,0.38
+fbprophetGamma,total,50,0.833,1,False,0.93,0.0,0.0,0.0
+fbprophetNB,total,50,0.833,1,False,0.93,0.0,0.0,0.0
+fbprophet,total,50,0.66,1,False,0.93,0.17805383022774326,0.09930715935334873,0.86
+fbprophetGamma,total,50,0.66,1,False,0.93,0.33333333333333337,1.0,0.2
+fbprophetNB,total,50,0.66,1,False,0.93,0.48484848484848486,1.0,0.32
+fbprophet,total,50,0,1,False,0.93,0.2695417789757412,0.1557632398753894,1.0
+fbprophetGamma,total,50,0,1,False,0.93,0.98989898989899,1.0,0.98
+fbprophetNB,total,50,0,1,False,0.93,1.0,1.0,1.0
+fbprophet,total,50,0,3,True,0.93,0.625,0.45454545454545453,1.0
+fbprophetGamma,total,50,0,3,True,0.93,1.0,1.0,1.0
+fbprophetNB,total,50,0,3,True,0.93,0.9966555183946488,1.0,0.9933333333333333
+fbprophet,seat,50,0.833,1,False,0.93,0.04234527687296417,0.02304964539007092,0.26
+fbprophetGamma,seat,50,0.833,1,False,0.93,0.0392156862745098,1.0,0.02
+fbprophetNB,seat,50,0.833,1,False,0.93,0.0392156862745098,1.0,0.02
+fbprophet,seat,50,0.66,1,False,0.93,0.16354344122657583,0.0893854748603352,0.96
+fbprophetGamma,seat,50,0.66,1,False,0.93,0.24561403508771928,1.0,0.14
+fbprophetNB,seat,50,0.66,1,False,0.93,0.41269841269841273,1.0,0.26
+fbprophet,seat,50,0,1,False,0.93,0.228310502283105,0.12886597938144329,1.0
+fbprophetGamma,seat,50,0,1,False,0.93,0.9361702127659575,1.0,0.88
+fbprophetNB,seat,50,0,1,False,0.93,0.9795918367346939,1.0,0.96
+fbprophet,seat,50,0,3,True,0.93,0.6880733944954128,0.5244755244755245,1.0
+fbprophetGamma,seat,50,0,3,True,0.93,0.9767441860465117,0.9735099337748344,0.98
+fbprophetNB,seat,50,0,3,True,0.93,1.0,1.0,1.0
+fbprophet,gift_certificate,50,0.833,1,False,0.93,0.0,0.0,0.0
+fbprophetGamma,gift_certificate,50,0.833,1,False,0.93,0.018867924528301886,0.010416666666666666,0.1
+fbprophetNB,gift_certificate,50,0.833,1,False,0.93,0.044226044226044224,0.025210084033613446,0.18
+fbprophet,gift_certificate,50,0.66,1,False,0.93,0.0,0.0,0.0
+fbprophetGamma,gift_certificate,50,0.66,1,False,0.93,0.022813688212927754,0.012605042016806723,0.12
+fbprophetNB,gift_certificate,50,0.66,1,False,0.93,0.015151515151515152,0.008670520231213872,0.06
+fbprophet,gift_certificate,50,0,1,False,0.93,0.14545454545454545,0.8,0.08
+fbprophetGamma,gift_certificate,50,0,1,False,0.93,0.08812260536398467,0.048728813559322036,0.46
+fbprophetNB,gift_certificate,50,0,1,False,0.93,0.14883720930232558,0.08421052631578947,0.64
+fbprophet,gift_certificate,50,0,3,True,0.93,0.25287356321839083,0.9166666666666666,0.14666666666666667
+fbprophetGamma,gift_certificate,50,0,3,True,0.93,0.3448275862068966,0.21978021978021978,0.8
+fbprophetNB,gift_certificate,50,0,3,True,0.93,0.3775510204081633,0.2534246575342466,0.74
+fbprophet,"('AAQ-DME', 'auto_checkin')",50,0.833,1,False,0.93,0.0,0.0,0.0
+fbprophetGamma,"('AAQ-DME', 'auto_checkin')",50,0.833,1,False,0.93,0.00662565073355419,0.0033931168201648087,0.14
+fbprophetNB,"('AAQ-DME', 'auto_checkin')",50,0.833,1,False,0.93,0.017167381974248927,0.008968609865470852,0.2
+fbprophet,"('AAQ-DME', 'auto_checkin')",50,0.66,1,False,0.93,0.0,0.0,0.0
+fbprophetGamma,"('AAQ-DME', 'auto_checkin')",50,0.66,1,False,0.93,0.012422360248447206,0.006363191385217817,0.26
+fbprophetNB,"('AAQ-DME', 'auto_checkin')",50,0.66,1,False,0.93,0.01929824561403509,0.010091743119266056,0.22
+fbprophet,"('AAQ-DME', 'auto_checkin')",50,0,1,False,0.93,0.0,0.0,0.0
+fbprophetGamma,"('AAQ-DME', 'auto_checkin')",50,0,1,False,0.93,0.01827801827801828,0.009364218827008379,0.38
+fbprophetNB,"('AAQ-DME', 'auto_checkin')",50,0,1,False,0.93,0.036458333333333336,0.019056261343012703,0.42
+fbprophet,"('AAQ-DME', 'auto_checkin')",50,0,3,True,0.93,0.029411764705882353,0.05555555555555555,0.02
+fbprophetGamma,"('AAQ-DME', 'auto_checkin')",50,0,3,True,0.93,0.10559284116331097,0.056594724220623505,0.7866666666666666
+fbprophetNB,"('AAQ-DME', 'auto_checkin')",50,0,3,True,0.93,0.16892430278884463,0.09592760180995476,0.7066666666666667
+fbprophet,"('DME-GDZ', 'auto_checkin')",50,0.833,1,False,0.93,0.0,0.0,0.0
+fbprophetGamma,"('DME-GDZ', 'auto_checkin')",50,0.833,1,False,0.93,0.011021619330224674,0.00563014291901256,0.26
+fbprophetNB,"('DME-GDZ', 'auto_checkin')",50,0.833,1,False,0.93,0.015673981191222573,0.008503401360544218,0.1
+fbprophet,"('DME-GDZ', 'auto_checkin')",50,0.66,1,False,0.93,0.0,0.0,0.0
+fbprophetGamma,"('DME-GDZ', 'auto_checkin')",50,0.66,1,False,0.93,0.010951979780960405,0.005593803786574871,0.26
+fbprophetNB,"('DME-GDZ', 'auto_checkin')",50,0.66,1,False,0.93,0.012598425196850394,0.006837606837606838,0.08
+fbprophet,"('DME-GDZ', 'auto_checkin')",50,0,1,False,0.93,0.0,0.0,0.0
+fbprophetGamma,"('DME-GDZ', 'auto_checkin')",50,0,1,False,0.93,0.014425116673737802,0.007368877329865626,0.34
+fbprophetNB,"('DME-GDZ', 'auto_checkin')",50,0,1,False,0.93,0.02777777777777778,0.015050167224080268,0.18
+fbprophet,"('DME-GDZ', 'auto_checkin')",50,0,3,True,0.93,0.0,0.0,0.0
+fbprophetGamma,"('DME-GDZ', 'auto_checkin')",50,0,3,True,0.93,0.08460634547591069,0.0449438202247191,0.72
+fbprophetNB,"('DME-GDZ', 'auto_checkin')",50,0,3,True,0.93,0.1150326797385621,0.07154471544715447,0.29333333333333333
+fbprophet,"('DME-ORY', 'seat')",50,0.833,1,False,0.93,0.0,0.0,0.0
+fbprophetGamma,"('DME-ORY', 'seat')",50,0.833,1,False,0.93,0.006363636363636364,0.0032558139534883722,0.14
+fbprophetNB,"('DME-ORY', 'seat')",50,0.833,1,False,0.93,0.01288659793814433,0.006887052341597796,0.1
+fbprophet,"('DME-ORY', 'seat')",50,0.66,1,False,0.93,0.0,0.0,0.0
+fbprophetGamma,"('DME-ORY', 'seat')",50,0.66,1,False,0.93,0.007272727272727274,0.0037209302325581397,0.16
+fbprophetNB,"('DME-ORY', 'seat')",50,0.66,1,False,0.93,0.0027247956403269754,0.0014619883040935672,0.02
+fbprophet,"('DME-ORY', 'seat')",50,0,1,False,0.93,0.0,0.0,0.0
+fbprophetGamma,"('DME-ORY', 'seat')",50,0,1,False,0.93,0.018181818181818184,0.009302325581395349,0.4
+fbprophetNB,"('DME-ORY', 'seat')",50,0,1,False,0.93,0.035862068965517246,0.01925925925925926,0.26
+fbprophet,"('DME-ORY', 'seat')",50,0,3,True,0.93,0.0,0.0,0.0
+fbprophetGamma,"('DME-ORY', 'seat')",50,0,3,True,0.93,0.09953994144709327,0.05310129406514949,0.7933333333333333
+fbprophetNB,"('DME-ORY', 'seat')",50,0,3,True,0.93,0.07337278106508875,0.04460431654676259,0.20666666666666667
+fbprophet,total,50,0.833,1,False,0.94,0.09047619047619049,0.051351351351351354,0.38
+fbprophetGamma,total,50,0.833,1,False,0.94,0.07692307692307693,1.0,0.04
+fbprophetNB,total,50,0.833,1,False,0.94,0.0392156862745098,1.0,0.02
+fbprophet,total,50,0.66,1,False,0.94,0.215962441314554,0.12234042553191489,0.92
+fbprophetGamma,total,50,0.66,1,False,0.94,0.36065573770491804,1.0,0.22
+fbprophetNB,total,50,0.66,1,False,0.94,0.3870967741935484,1.0,0.24
+fbprophet,total,50,0,1,False,0.94,0.2967359050445104,0.17421602787456447,1.0
+fbprophetGamma,total,50,0,1,False,0.94,1.0,1.0,1.0
+fbprophetNB,total,50,0,1,False,0.94,1.0,1.0,1.0
+fbprophet,total,50,0,3,True,0.94,0.6535947712418301,0.4854368932038835,1.0
+fbprophetGamma,total,50,0,3,True,0.94,0.9966555183946488,1.0,0.9933333333333333
+fbprophetNB,total,50,0,3,True,0.94,1.0,1.0,1.0
+fbprophet,seat,50,0.833,1,False,0.94,0.03370786516853933,0.01859504132231405,0.18
+fbprophetGamma,seat,50,0.833,1,False,0.94,0.0392156862745098,1.0,0.02
+fbprophetNB,seat,50,0.833,1,False,0.94,0.0392156862745098,1.0,0.02
+fbprophet,seat,50,0.66,1,False,0.94,0.16349809885931557,0.09033613445378151,0.86
+fbprophetGamma,seat,50,0.66,1,False,0.94,0.3050847457627119,1.0,0.18
+fbprophetNB,seat,50,0.66,1,False,0.94,0.43750000000000006,1.0,0.28
+fbprophet,seat,50,0,1,False,0.94,0.2597402597402597,0.14925373134328357,1.0
+fbprophetGamma,seat,50,0,1,False,0.94,0.9690721649484536,1.0,0.94
+fbprophetNB,seat,50,0,1,False,0.94,0.98989898989899,1.0,0.98
+fbprophet,seat,50,0,3,True,0.94,0.7092198581560284,0.5494505494505495,1.0
+fbprophetGamma,seat,50,0,3,True,0.94,0.9832775919732442,0.9865771812080537,0.98
+fbprophetNB,seat,50,0,3,True,0.94,1.0,1.0,1.0
+fbprophet,gift_certificate,50,0.833,1,False,0.94,0.0,0.0,0.0
+fbprophetGamma,gift_certificate,50,0.833,1,False,0.94,0.011976047904191617,0.0066518847006651885,0.06
+fbprophetNB,gift_certificate,50,0.833,1,False,0.94,0.022857142857142857,0.013333333333333334,0.08
+fbprophet,gift_certificate,50,0.66,1,False,0.94,0.0,0.0,0.0
+fbprophetGamma,gift_certificate,50,0.66,1,False,0.94,0.02028397565922921,0.011286681715575621,0.1
+fbprophetNB,gift_certificate,50,0.66,1,False,0.94,0.03021148036253777,0.017793594306049824,0.1
+fbprophet,gift_certificate,50,0,1,False,0.94,0.14285714285714285,0.6666666666666666,0.08
+fbprophetGamma,gift_certificate,50,0,1,False,0.94,0.08467741935483872,0.04708520179372197,0.42
+fbprophetNB,gift_certificate,50,0,1,False,0.94,0.17837837837837836,0.103125,0.66
+fbprophet,gift_certificate,50,0,3,True,0.94,0.2235294117647059,0.95,0.12666666666666668
+fbprophetGamma,gift_certificate,50,0,3,True,0.94,0.3554216867469879,0.22957198443579765,0.7866666666666666
+fbprophetNB,gift_certificate,50,0,3,True,0.94,0.42911877394636017,0.3010752688172043,0.7466666666666667
+fbprophet,"('AAQ-DME', 'auto_checkin')",50,0.833,1,False,0.94,0.0,0.0,0.0
+fbprophetGamma,"('AAQ-DME', 'auto_checkin')",50,0.833,1,False,0.94,0.013651877133105804,0.0069965017491254375,0.28
+fbprophetNB,"('AAQ-DME', 'auto_checkin')",50,0.833,1,False,0.94,0.00980392156862745,0.005154639175257732,0.1
+fbprophet,"('AAQ-DME', 'auto_checkin')",50,0.66,1,False,0.94,0.0,0.0,0.0
+fbprophetGamma,"('AAQ-DME', 'auto_checkin')",50,0.66,1,False,0.94,0.01264591439688716,0.006480558325024925,0.26
+fbprophetNB,"('AAQ-DME', 'auto_checkin')",50,0.66,1,False,0.94,0.009775171065493646,0.0051387461459403904,0.1
+fbprophet,"('AAQ-DME', 'auto_checkin')",50,0,1,False,0.94,0.020833333333333332,0.021739130434782608,0.02
+fbprophetGamma,"('AAQ-DME', 'auto_checkin')",50,0,1,False,0.94,0.017569546120058562,0.009004502251125562,0.36
+fbprophetNB,"('AAQ-DME', 'auto_checkin')",50,0,1,False,0.94,0.04408817635270541,0.023206751054852322,0.44
+fbprophet,"('AAQ-DME', 'auto_checkin')",50,0,3,True,0.94,0.0,0.0,0.0
+fbprophetGamma,"('AAQ-DME', 'auto_checkin')",50,0,3,True,0.94,0.10258738084430323,0.05504140282513395,0.7533333333333333
+fbprophetNB,"('AAQ-DME', 'auto_checkin')",50,0,3,True,0.94,0.13973799126637554,0.08040201005025126,0.5333333333333333
+fbprophet,"('DME-GDZ', 'auto_checkin')",50,0.833,1,False,0.94,0.0,0.0,0.0
+fbprophetGamma,"('DME-GDZ', 'auto_checkin')",50,0.833,1,False,0.94,0.008010680907877168,0.004096495220755576,0.18
+fbprophetNB,"('DME-GDZ', 'auto_checkin')",50,0.833,1,False,0.94,0.014705882352941175,0.008097165991902834,0.08
+fbprophet,"('DME-GDZ', 'auto_checkin')",50,0.66,1,False,0.94,0.0,0.0,0.0
+fbprophetGamma,"('DME-GDZ', 'auto_checkin')",50,0.66,1,False,0.94,0.011540168664003552,0.005901044030866999,0.26
+fbprophetNB,"('DME-GDZ', 'auto_checkin')",50,0.66,1,False,0.94,0.0186219739292365,0.01026694045174538,0.1
+fbprophet,"('DME-GDZ', 'auto_checkin')",50,0,1,False,0.94,0.0,0.0,0.0
+fbprophetGamma,"('DME-GDZ', 'auto_checkin')",50,0,1,False,0.94,0.017543859649122806,0.008968609865470852,0.4
+fbprophetNB,"('DME-GDZ', 'auto_checkin')",50,0,1,False,0.94,0.03290676416819013,0.018108651911468814,0.18
+fbprophet,"('DME-GDZ', 'auto_checkin')",50,0,3,True,0.94,0.0,0.0,0.0
+fbprophetGamma,"('DME-GDZ', 'auto_checkin')",50,0,3,True,0.94,0.08061889250814333,0.042931483087597574,0.66
+fbprophetNB,"('DME-GDZ', 'auto_checkin')",50,0,3,True,0.94,0.10153846153846152,0.066,0.22
+fbprophet,"('DME-ORY', 'seat')",50,0.833,1,False,0.94,0.0,0.0,0.0
+fbprophetGamma,"('DME-ORY', 'seat')",50,0.833,1,False,0.94,0.005454545454545455,0.0027906976744186047,0.12
+fbprophetNB,"('DME-ORY', 'seat')",50,0.833,1,False,0.94,0.003395585738539898,0.0018552875695732839,0.02
+fbprophet,"('DME-ORY', 'seat')",50,0.66,1,False,0.94,0.0,0.0,0.0
+fbprophetGamma,"('DME-ORY', 'seat')",50,0.66,1,False,0.94,0.009999999999999998,0.0051162790697674414,0.22
+fbprophetNB,"('DME-ORY', 'seat')",50,0.66,1,False,0.94,0.014311270125223612,0.007858546168958742,0.08
+fbprophet,"('DME-ORY', 'seat')",50,0,1,False,0.94,0.0,0.0,0.0
+fbprophetGamma,"('DME-ORY', 'seat')",50,0,1,False,0.94,0.015447523852794184,0.00790330079033008,0.34
+fbprophetNB,"('DME-ORY', 'seat')",50,0,1,False,0.94,0.035398230088495575,0.019417475728155338,0.2
+fbprophet,"('DME-ORY', 'seat')",50,0,3,True,0.94,0.0,0.0,0.0
+fbprophetGamma,"('DME-ORY', 'seat')",50,0,3,True,0.94,0.10054461667364893,0.05364327223960662,0.8
+fbprophetNB,"('DME-ORY', 'seat')",50,0,3,True,0.94,0.0915805022156573,0.058823529411764705,0.20666666666666667
+fbprophet,total,50,0.833,1,False,0.95,0.08379888268156425,0.048701298701298704,0.3
+fbprophetGamma,total,50,0.833,1,False,0.95,0.0,0.0,0.0
+fbprophetNB,total,50,0.833,1,False,0.95,0.0,0.0,0.0
+fbprophet,total,50,0.66,1,False,0.95,0.24376731301939059,0.1414790996784566,0.88
+fbprophetGamma,total,50,0.66,1,False,0.95,0.24561403508771928,1.0,0.14
+fbprophetNB,total,50,0.66,1,False,0.95,0.11320754716981131,1.0,0.06
+fbprophet,total,50,0,1,False,0.95,0.3184713375796178,0.1893939393939394,1.0
+fbprophetGamma,total,50,0,1,False,0.95,0.98989898989899,1.0,0.98
+fbprophetNB,total,50,0,1,False,0.95,1.0,1.0,1.0
+fbprophet,total,50,0,3,True,0.95,0.6622516556291391,0.49504950495049505,1.0
+fbprophetGamma,total,50,0,3,True,0.95,0.9864864864864865,1.0,0.9733333333333334
+fbprophetNB,total,50,0,3,True,0.95,1.0,1.0,1.0
+fbprophet,seat,50,0.833,1,False,0.95,0.031746031746031744,0.017902813299232736,0.14
+fbprophetGamma,seat,50,0.833,1,False,0.95,0.0392156862745098,1.0,0.02
+fbprophetNB,seat,50,0.833,1,False,0.95,0.0392156862745098,1.0,0.02
+fbprophet,seat,50,0.66,1,False,0.95,0.18604651162790697,0.10526315789473684,0.8
+fbprophetGamma,seat,50,0.66,1,False,0.95,0.14814814814814814,1.0,0.08
+fbprophetNB,seat,50,0.66,1,False,0.95,0.3050847457627119,1.0,0.18
+fbprophet,seat,50,0,1,False,0.95,0.29069767441860467,0.17006802721088435,1.0
+fbprophetGamma,seat,50,0,1,False,0.95,0.98989898989899,1.0,0.98
+fbprophetNB,seat,50,0,1,False,0.95,0.9795918367346939,1.0,0.96
+fbprophet,seat,50,0,3,True,0.95,0.7246376811594203,0.5681818181818182,1.0
+fbprophetGamma,seat,50,0,3,True,0.95,0.9761092150170648,1.0,0.9533333333333334
+fbprophetNB,seat,50,0,3,True,0.95,1.0,1.0,1.0
+fbprophet,gift_certificate,50,0.833,1,False,0.95,0.0,0.0,0.0
+fbprophetGamma,gift_certificate,50,0.833,1,False,0.95,0.017316017316017316,0.009708737864077669,0.08
+fbprophetNB,gift_certificate,50,0.833,1,False,0.95,0.007194244604316546,0.0043859649122807015,0.02
+fbprophet,gift_certificate,50,0.66,1,False,0.95,0.0,0.0,0.0
+fbprophetGamma,gift_certificate,50,0.66,1,False,0.95,0.008908685968819599,0.005012531328320802,0.04
+fbprophetNB,gift_certificate,50,0.66,1,False,0.95,0.06338028169014084,0.038461538461538464,0.18
+fbprophet,gift_certificate,50,0,1,False,0.95,0.07692307692307693,1.0,0.04
+fbprophetGamma,gift_certificate,50,0,1,False,0.95,0.10234541577825161,0.057279236276849645,0.48
+fbprophetNB,gift_certificate,50,0,1,False,0.95,0.16271186440677968,0.09795918367346938,0.48
+fbprophet,gift_certificate,50,0,3,True,0.95,0.17073170731707318,1.0,0.09333333333333334
+fbprophetGamma,gift_certificate,50,0,3,True,0.95,0.3863987635239567,0.2515090543259557,0.8333333333333334
+fbprophetNB,gift_certificate,50,0,3,True,0.95,0.4425531914893618,0.325,0.6933333333333334
+fbprophet,"('AAQ-DME', 'auto_checkin')",50,0.833,1,False,0.95,0.0,0.0,0.0
+fbprophetGamma,"('AAQ-DME', 'auto_checkin')",50,0.833,1,False,0.95,0.006906758756783423,0.0035407182599898838,0.14
+fbprophetNB,"('AAQ-DME', 'auto_checkin')",50,0.833,1,False,0.95,0.01812004530011325,0.009603841536614645,0.16
+fbprophet,"('AAQ-DME', 'auto_checkin')",50,0.66,1,False,0.95,0.0,0.0,0.0
+fbprophetGamma,"('AAQ-DME', 'auto_checkin')",50,0.66,1,False,0.95,0.013902681231380337,0.007128309572301426,0.28
+fbprophetNB,"('AAQ-DME', 'auto_checkin')",50,0.66,1,False,0.95,0.009060022650056626,0.004801920768307323,0.08
+fbprophet,"('AAQ-DME', 'auto_checkin')",50,0,1,False,0.95,0.07142857142857141,0.08823529411764706,0.06
+fbprophetGamma,"('AAQ-DME', 'auto_checkin')",50,0,1,False,0.95,0.01804511278195489,0.009254498714652956,0.36
+fbprophetNB,"('AAQ-DME', 'auto_checkin')",50,0,1,False,0.95,0.05592841163310962,0.02962085308056872,0.5
+fbprophet,"('AAQ-DME', 'auto_checkin')",50,0,3,True,0.95,0.0,0.0,0.0
+fbprophetGamma,"('AAQ-DME', 'auto_checkin')",50,0,3,True,0.95,0.1085634066448292,0.058379466532461,0.7733333333333333
+fbprophetNB,"('AAQ-DME', 'auto_checkin')",50,0,3,True,0.95,0.13559322033898305,0.07971864009378664,0.4533333333333333
+fbprophet,"('DME-GDZ', 'auto_checkin')",50,0.833,1,False,0.95,0.0,0.0,0.0
+fbprophetGamma,"('DME-GDZ', 'auto_checkin')",50,0.833,1,False,0.95,0.008415147265077139,0.00430828147438966,0.18
+fbprophetNB,"('DME-GDZ', 'auto_checkin')",50,0.833,1,False,0.95,0.01839080459770115,0.01038961038961039,0.08
+fbprophet,"('DME-GDZ', 'auto_checkin')",50,0.66,1,False,0.95,0.0,0.0,0.0
+fbprophetGamma,"('DME-GDZ', 'auto_checkin')",50,0.66,1,False,0.95,0.014025245441795231,0.007180469123982767,0.3
+fbprophetNB,"('DME-GDZ', 'auto_checkin')",50,0.66,1,False,0.95,0.0228310502283105,0.01288659793814433,0.1
+fbprophet,"('DME-GDZ', 'auto_checkin')",50,0,1,False,0.95,0.0,0.0,0.0
+fbprophetGamma,"('DME-GDZ', 'auto_checkin')",50,0,1,False,0.95,0.016767582673497903,0.008583690987124463,0.36
+fbprophetNB,"('DME-GDZ', 'auto_checkin')",50,0,1,False,0.95,0.05504587155963303,0.031088082901554404,0.24
+fbprophet,"('DME-GDZ', 'auto_checkin')",50,0,3,True,0.95,0.0,0.0,0.0
+fbprophetGamma,"('DME-GDZ', 'auto_checkin')",50,0,3,True,0.95,0.09349060725207514,0.05002337540906966,0.7133333333333334
+fbprophetNB,"('DME-GDZ', 'auto_checkin')",50,0,3,True,0.95,0.11171171171171171,0.07654320987654321,0.20666666666666667
+fbprophet,"('DME-ORY', 'seat')",50,0.833,1,False,0.95,0.0,0.0,0.0
+fbprophetGamma,"('DME-ORY', 'seat')",50,0.833,1,False,0.95,0.008181818181818182,0.004186046511627907,0.18
+fbprophetNB,"('DME-ORY', 'seat')",50,0.833,1,False,0.95,0.009153318077803205,0.00516795865633075,0.04
+fbprophet,"('DME-ORY', 'seat')",50,0.66,1,False,0.95,0.0,0.0,0.0
+fbprophetGamma,"('DME-ORY', 'seat')",50,0.66,1,False,0.95,0.009103322712790168,0.004657661853749418,0.2
+fbprophetNB,"('DME-ORY', 'seat')",50,0.66,1,False,0.95,0.00925925925925926,0.005235602094240838,0.04
+fbprophet,"('DME-ORY', 'seat')",50,0,1,False,0.95,0.0,0.0,0.0
+fbprophetGamma,"('DME-ORY', 'seat')",50,0,1,False,0.95,0.015454545454545453,0.007906976744186046,0.34
+fbprophetNB,"('DME-ORY', 'seat')",50,0,1,False,0.95,0.027777777777777776,0.015706806282722512,0.12
+fbprophet,"('DME-ORY', 'seat')",50,0,3,True,0.95,0.0,0.0,0.0
+fbprophetGamma,"('DME-ORY', 'seat')",50,0,3,True,0.95,0.09987410826689047,0.05329153605015674,0.7933333333333333
+fbprophetNB,"('DME-ORY', 'seat')",50,0,3,True,0.95,0.08235294117647059,0.058333333333333334,0.14
+fbprophet,total,50,0.833,1,False,0.96,0.08469055374592835,0.05058365758754864,0.26
+fbprophetGamma,total,50,0.833,1,False,0.96,0.0,0.0,0.0
+fbprophetNB,total,50,0.833,1,False,0.96,0.0,0.0,0.0
+fbprophet,total,50,0.66,1,False,0.96,0.24,0.14181818181818182,0.78
+fbprophetGamma,total,50,0.66,1,False,0.96,0.21428571428571425,1.0,0.12
+fbprophetNB,total,50,0.66,1,False,0.96,0.2758620689655173,1.0,0.16
+fbprophet,total,50,0,1,False,0.96,0.3278688524590164,0.19607843137254902,1.0
+fbprophetGamma,total,50,0,1,False,0.96,0.9583333333333334,1.0,0.92
+fbprophetNB,total,50,0,1,False,0.96,1.0,1.0,1.0
+fbprophet,total,50,0,3,True,0.96,0.6912442396313364,0.528169014084507,1.0
+fbprophetGamma,total,50,0,3,True,0.96,0.9795918367346939,1.0,0.96
+fbprophetNB,total,50,0,3,True,0.96,1.0,1.0,1.0
+fbprophet,seat,50,0.833,1,False,0.96,0.04864864864864865,0.028125,0.18
+fbprophetGamma,seat,50,0.833,1,False,0.96,0.0,0.0,0.0
+fbprophetNB,seat,50,0.833,1,False,0.96,0.0,0.0,0.0
+fbprophet,seat,50,0.66,1,False,0.96,0.21079691516709512,0.12094395280235988,0.82
+fbprophetGamma,seat,50,0.66,1,False,0.96,0.21428571428571425,1.0,0.12
+fbprophetNB,seat,50,0.66,1,False,0.96,0.21428571428571425,1.0,0.12
+fbprophet,seat,50,0,1,False,0.96,0.3021148036253776,0.17793594306049823,1.0
+fbprophetGamma,seat,50,0,1,False,0.96,0.9473684210526316,1.0,0.9
+fbprophetNB,seat,50,0,1,False,0.96,0.98989898989899,1.0,0.98
+fbprophet,seat,50,0,3,True,0.96,0.7894736842105263,0.6521739130434783,1.0
+fbprophetGamma,seat,50,0,3,True,0.96,0.9726027397260273,1.0,0.9466666666666667
+fbprophetNB,seat,50,0,3,True,0.96,0.9932885906040269,1.0,0.9866666666666667
+fbprophet,gift_certificate,50,0.833,1,False,0.96,0.0,0.0,0.0
+fbprophetGamma,gift_certificate,50,0.833,1,False,0.96,0.014354066985645933,0.008152173913043478,0.06
+fbprophetNB,gift_certificate,50,0.833,1,False,0.96,0.02531645569620253,0.016042780748663103,0.06
+fbprophet,gift_certificate,50,0.66,1,False,0.96,0.0,0.0,0.0
+fbprophetGamma,gift_certificate,50,0.66,1,False,0.96,0.013953488372093023,0.007894736842105263,0.06
+fbprophetNB,gift_certificate,50,0.66,1,False,0.96,0.03305785123966942,0.020833333333333332,0.08
+fbprophet,gift_certificate,50,0,1,False,0.96,0.038461538461538464,0.5,0.02
+fbprophetGamma,gift_certificate,50,0,1,False,0.96,0.08715596330275228,0.04922279792746114,0.38
+fbprophetNB,gift_certificate,50,0,1,False,0.96,0.1923076923076923,0.11904761904761904,0.5
+fbprophet,gift_certificate,50,0,3,True,0.96,0.14814814814814814,1.0,0.08
+fbprophetGamma,gift_certificate,50,0,3,True,0.96,0.37620578778135044,0.2478813559322034,0.78
+fbprophetNB,gift_certificate,50,0,3,True,0.96,0.4539007092198582,0.3516483516483517,0.64
+fbprophet,"('AAQ-DME', 'auto_checkin')",50,0.833,1,False,0.96,0.0,0.0,0.0
+fbprophetGamma,"('AAQ-DME', 'auto_checkin')",50,0.833,1,False,0.96,0.008188331627430911,0.004201680672268907,0.16
+fbprophetNB,"('AAQ-DME', 'auto_checkin')",50,0.833,1,False,0.96,0.01610738255033557,0.008633093525179856,0.12
+fbprophet,"('AAQ-DME', 'auto_checkin')",50,0.66,1,False,0.96,0.023255813953488372,0.027777777777777776,0.02
+fbprophetGamma,"('AAQ-DME', 'auto_checkin')",50,0.66,1,False,0.96,0.0111731843575419,0.005732152162584679,0.22
+fbprophetNB,"('AAQ-DME', 'auto_checkin')",50,0.66,1,False,0.96,0.0196078431372549,0.010542168674698794,0.14
+fbprophet,"('AAQ-DME', 'auto_checkin')",50,0,1,False,0.96,0.0,0.0,0.0
+fbprophetGamma,"('AAQ-DME', 'auto_checkin')",50,0,1,False,0.96,0.017607457276022788,0.009037745879851143,0.34
+fbprophetNB,"('AAQ-DME', 'auto_checkin')",50,0,1,False,0.96,0.039381153305203934,0.02118003025718608,0.28
+fbprophet,"('AAQ-DME', 'auto_checkin')",50,0,3,True,0.96,0.011428571428571429,0.04,0.006666666666666667
+fbprophetGamma,"('AAQ-DME', 'auto_checkin')",50,0,3,True,0.96,0.11024390243902439,0.05947368421052632,0.7533333333333333
+fbprophetNB,"('AAQ-DME', 'auto_checkin')",50,0,3,True,0.96,0.14014251781472684,0.08526011560693642,0.3933333333333333
+fbprophet,"('DME-GDZ', 'auto_checkin')",50,0.833,1,False,0.96,0.0,0.0,0.0
+fbprophetGamma,"('DME-GDZ', 'auto_checkin')",50,0.833,1,False,0.96,0.008902077151335312,0.004563894523326572,0.18
+fbprophetNB,"('DME-GDZ', 'auto_checkin')",50,0.833,1,False,0.96,0.012269938650306749,0.007246376811594203,0.04
+fbprophet,"('DME-GDZ', 'auto_checkin')",50,0.66,1,False,0.96,0.0,0.0,0.0
+fbprophetGamma,"('DME-GDZ', 'auto_checkin')",50,0.66,1,False,0.96,0.012877662209014363,0.006602336211274758,0.26
+fbprophetNB,"('DME-GDZ', 'auto_checkin')",50,0.66,1,False,0.96,0.01282051282051282,0.007633587786259542,0.04
+fbprophet,"('DME-GDZ', 'auto_checkin')",50,0,1,False,0.96,0.0,0.0,0.0
+fbprophetGamma,"('DME-GDZ', 'auto_checkin')",50,0,1,False,0.96,0.015952143569292122,0.0081799591002045,0.32
+fbprophetNB,"('DME-GDZ', 'auto_checkin')",50,0,1,False,0.96,0.03164556962025316,0.018796992481203006,0.1
+fbprophet,"('DME-GDZ', 'auto_checkin')",50,0,3,True,0.96,0.0,0.0,0.0
+fbprophetGamma,"('DME-GDZ', 'auto_checkin')",50,0,3,True,0.96,0.094279176201373,0.050614250614250615,0.6866666666666666
+fbprophetNB,"('DME-GDZ', 'auto_checkin')",50,0,3,True,0.96,0.04938271604938271,0.0392156862745098,0.06666666666666667
+fbprophet,"('DME-ORY', 'seat')",50,0.833,1,False,0.96,0.0,0.0,0.0
+fbprophetGamma,"('DME-ORY', 'seat')",50,0.833,1,False,0.96,0.009099181073703368,0.004655493482309125,0.2
+fbprophetNB,"('DME-ORY', 'seat')",50,0.833,1,False,0.96,0.019047619047619046,0.011320754716981131,0.06
+fbprophet,"('DME-ORY', 'seat')",50,0.66,1,False,0.96,0.0,0.0,0.0
+fbprophetGamma,"('DME-ORY', 'seat')",50,0.66,1,False,0.96,0.012779552715654952,0.006539000467071462,0.28
+fbprophetNB,"('DME-ORY', 'seat')",50,0.66,1,False,0.96,0.013745704467353952,0.008298755186721992,0.04
+fbprophet,"('DME-ORY', 'seat')",50,0,1,False,0.96,0.0,0.0,0.0
+fbprophetGamma,"('DME-ORY', 'seat')",50,0,1,False,0.96,0.02190780465540849,0.011209715086408221,0.48
+fbprophetNB,"('DME-ORY', 'seat')",50,0,1,False,0.96,0.027118644067796613,0.0163265306122449,0.08
+fbprophet,"('DME-ORY', 'seat')",50,0,3,True,0.96,0.0,0.0,0.0
+fbprophetGamma,"('DME-ORY', 'seat')",50,0,3,True,0.96,0.0970464135021097,0.0518018018018018,0.7666666666666667
+fbprophetNB,"('DME-ORY', 'seat')",50,0,3,True,0.96,0.10443864229765014,0.08583690987124463,0.13333333333333333
+fbprophet,total,50,0.833,1,False,0.97,0.0931899641577061,0.056768558951965066,0.26
+fbprophetGamma,total,50,0.833,1,False,0.97,0.0,0.0,0.0
+fbprophetNB,total,50,0.833,1,False,0.97,0.0,0.0,0.0
+fbprophet,total,50,0.66,1,False,0.97,0.2763157894736842,0.16535433070866143,0.84
+fbprophetGamma,total,50,0.66,1,False,0.97,0.3050847457627119,1.0,0.18
+fbprophetNB,total,50,0.66,1,False,0.97,0.24561403508771928,1.0,0.14
+fbprophet,total,50,0,1,False,0.97,0.3378378378378379,0.2032520325203252,1.0
+fbprophetGamma,total,50,0,1,False,0.97,0.9795918367346939,1.0,0.96
+fbprophetNB,total,50,0,1,False,0.97,1.0,1.0,1.0
+fbprophet,total,50,0,3,True,0.97,0.7389162561576355,0.5859375,1.0
+fbprophetGamma,total,50,0,3,True,0.97,0.9726027397260273,1.0,0.9466666666666667
+fbprophetNB,total,50,0,3,True,0.97,0.9966555183946488,1.0,0.9933333333333333
+fbprophet,seat,50,0.833,1,False,0.97,0.06269592476489028,0.03717472118959108,0.2
+fbprophetGamma,seat,50,0.833,1,False,0.97,0.0,0.0,0.0
+fbprophetNB,seat,50,0.833,1,False,0.97,0.0392156862745098,1.0,0.02
+fbprophet,seat,50,0.66,1,False,0.97,0.20771513353115725,0.12195121951219512,0.7
+fbprophetGamma,seat,50,0.66,1,False,0.97,0.18181818181818182,1.0,0.1
+fbprophetNB,seat,50,0.66,1,False,0.97,0.24561403508771928,1.0,0.14
+fbprophet,seat,50,0,1,False,0.97,0.36630036630036633,0.2242152466367713,1.0
+fbprophetGamma,seat,50,0,1,False,0.97,0.9690721649484536,1.0,0.94
+fbprophetNB,seat,50,0,1,False,0.97,1.0,1.0,1.0
+fbprophet,seat,50,0,3,True,0.97,0.8174386920980927,0.6912442396313364,1.0
+fbprophetGamma,seat,50,0,3,True,0.97,0.9473684210526316,1.0,0.9
+fbprophetNB,seat,50,0,3,True,0.97,1.0,1.0,1.0
+fbprophet,gift_certificate,50,0.833,1,False,0.97,0.0,0.0,0.0
+fbprophetGamma,gift_certificate,50,0.833,1,False,0.97,0.005167958656330749,0.002967359050445104,0.02
+fbprophetNB,gift_certificate,50,0.833,1,False,0.97,0.021164021164021163,0.014388489208633094,0.04
+fbprophet,gift_certificate,50,0.66,1,False,0.97,0.0,0.0,0.0
+fbprophetGamma,gift_certificate,50,0.66,1,False,0.97,0.0,0.0,0.0
+fbprophetNB,gift_certificate,50,0.66,1,False,0.97,0.020942408376963352,0.014184397163120567,0.04
+fbprophet,gift_certificate,50,0,1,False,0.97,0.0392156862745098,1.0,0.02
+fbprophetGamma,gift_certificate,50,0,1,False,0.97,0.09,0.05142857142857143,0.36
+fbprophetNB,gift_certificate,50,0,1,False,0.97,0.18536585365853658,0.12258064516129032,0.38
+fbprophet,gift_certificate,50,0,3,True,0.97,0.0392156862745098,1.0,0.02
+fbprophetGamma,gift_certificate,50,0,3,True,0.97,0.38078902229845624,0.25635103926096997,0.74
+fbprophetNB,gift_certificate,50,0,3,True,0.97,0.4623655913978495,0.38738738738738737,0.5733333333333334
+fbprophet,"('AAQ-DME', 'auto_checkin')",50,0.833,1,False,0.97,0.0,0.0,0.0
+fbprophetGamma,"('AAQ-DME', 'auto_checkin')",50,0.833,1,False,0.97,0.0032034169781099842,0.0016456390565002743,0.06
+fbprophetNB,"('AAQ-DME', 'auto_checkin')",50,0.833,1,False,0.97,0.011090573012939002,0.006109979633401222,0.06
+fbprophet,"('AAQ-DME', 'auto_checkin')",50,0.66,1,False,0.97,0.0,0.0,0.0
+fbprophetGamma,"('AAQ-DME', 'auto_checkin')",50,0.66,1,False,0.97,0.009682625067240451,0.004975124378109453,0.18
+fbprophetNB,"('AAQ-DME', 'auto_checkin')",50,0.66,1,False,0.97,0.007042253521126761,0.003861003861003861,0.04
+fbprophet,"('AAQ-DME', 'auto_checkin')",50,0,1,False,0.97,0.024096385542168672,0.030303030303030304,0.02
+fbprophetGamma,"('AAQ-DME', 'auto_checkin')",50,0,1,False,0.97,0.014023732470334413,0.007206208425720621,0.26
+fbprophetNB,"('AAQ-DME', 'auto_checkin')",50,0,1,False,0.97,0.025225225225225224,0.013861386138613862,0.14
+fbprophet,"('AAQ-DME', 'auto_checkin')",50,0,3,True,0.97,0.0,0.0,0.0
+fbprophetGamma,"('AAQ-DME', 'auto_checkin')",50,0,3,True,0.97,0.11055776892430279,0.05974165769644779,0.74
+fbprophetNB,"('AAQ-DME', 'auto_checkin')",50,0,3,True,0.97,0.11764705882352941,0.07547169811320754,0.26666666666666666
+fbprophet,"('DME-GDZ', 'auto_checkin')",50,0.833,1,False,0.97,0.0,0.0,0.0
+fbprophetGamma,"('DME-GDZ', 'auto_checkin')",50,0.833,1,False,0.97,0.007498660953401178,0.003852504127682994,0.14
+fbprophetNB,"('DME-GDZ', 'auto_checkin')",50,0.833,1,False,0.97,0.011976047904191617,0.008547008547008548,0.02
+fbprophet,"('DME-GDZ', 'auto_checkin')",50,0.66,1,False,0.97,0.0,0.0,0.0
+fbprophetGamma,"('DME-GDZ', 'auto_checkin')",50,0.66,1,False,0.97,0.010587612493382742,0.005437737901033171,0.2
+fbprophetNB,"('DME-GDZ', 'auto_checkin')",50,0.66,1,False,0.97,0.0,0.0,0.0
+fbprophet,"('DME-GDZ', 'auto_checkin')",50,0,1,False,0.97,0.0,0.0,0.0
+fbprophetGamma,"('DME-GDZ', 'auto_checkin')",50,0,1,False,0.97,0.020986358866736624,0.010775862068965518,0.4
+fbprophetNB,"('DME-GDZ', 'auto_checkin')",50,0,1,False,0.97,0.03488372093023256,0.02459016393442623,0.06
+fbprophet,"('DME-GDZ', 'auto_checkin')",50,0,3,True,0.97,0.0,0.0,0.0
+fbprophetGamma,"('DME-GDZ', 'auto_checkin')",50,0,3,True,0.97,0.0920666013712047,0.049682875264270614,0.6266666666666667
+fbprophetNB,"('DME-GDZ', 'auto_checkin')",50,0,3,True,0.97,0.11029411764705882,0.12295081967213115,0.1
+fbprophet,"('DME-ORY', 'seat')",50,0.833,1,False,0.97,0.0,0.0,0.0
+fbprophetGamma,"('DME-ORY', 'seat')",50,0.833,1,False,0.97,0.006427915518824609,0.003289473684210526,0.14
+fbprophetNB,"('DME-ORY', 'seat')",50,0.833,1,False,0.97,0.02040816326530612,0.0136986301369863,0.04
+fbprophet,"('DME-ORY', 'seat')",50,0.66,1,False,0.97,0.0,0.0,0.0
+fbprophetGamma,"('DME-ORY', 'seat')",50,0.66,1,False,0.97,0.004585052728106373,0.002346316283435007,0.1
+fbprophetNB,"('DME-ORY', 'seat')",50,0.66,1,False,0.97,0.0,0.0,0.0
+fbprophet,"('DME-ORY', 'seat')",50,0,1,False,0.97,0.0,0.0,0.0
+fbprophetGamma,"('DME-ORY', 'seat')",50,0,1,False,0.97,0.011075219197046609,0.005668398677373642,0.24
+fbprophetNB,"('DME-ORY', 'seat')",50,0,1,False,0.97,0.02926829268292683,0.01935483870967742,0.06
+fbprophet,"('DME-ORY', 'seat')",50,0,3,True,0.97,0.0,0.0,0.0
+fbprophetGamma,"('DME-ORY', 'seat')",50,0,3,True,0.97,0.09621115368241806,0.05138699408822192,0.7533333333333333
+fbprophetNB,"('DME-ORY', 'seat')",50,0,3,True,0.97,0.05714285714285714,0.06153846153846154,0.05333333333333334
+fbprophet,total,50,0.833,1,False,0.98,0.07633587786259544,0.04716981132075472,0.2
+fbprophetGamma,total,50,0.833,1,False,0.98,0.0,0.0,0.0
+fbprophetNB,total,50,0.833,1,False,0.98,0.0,0.0,0.0
+fbprophet,total,50,0.66,1,False,0.98,0.26804123711340205,0.16182572614107885,0.78
+fbprophetGamma,total,50,0.66,1,False,0.98,0.07692307692307693,1.0,0.04
+fbprophetNB,total,50,0.66,1,False,0.98,0.3050847457627119,1.0,0.18
+fbprophet,total,50,0,1,False,0.98,0.353356890459364,0.2145922746781116,1.0
+fbprophetGamma,total,50,0,1,False,0.98,0.9361702127659575,1.0,0.88
+fbprophetNB,total,50,0,1,False,0.98,0.98989898989899,1.0,0.98
+fbprophet,total,50,0,3,True,0.98,0.7812500000000001,0.6410256410256411,1.0
+fbprophetGamma,total,50,0,3,True,0.98,0.9932885906040269,1.0,0.9866666666666667
+fbprophetNB,total,50,0,3,True,0.98,0.98989898989899,1.0,0.98
+fbprophet,seat,50,0.833,1,False,0.98,0.06691449814126393,0.0410958904109589,0.18
+fbprophetGamma,seat,50,0.833,1,False,0.98,0.0,0.0,0.0
+fbprophetNB,seat,50,0.833,1,False,0.98,0.0,0.0,0.0
+fbprophet,seat,50,0.66,1,False,0.98,0.26480836236933797,0.16033755274261605,0.76
+fbprophetGamma,seat,50,0.66,1,False,0.98,0.07692307692307693,1.0,0.04
+fbprophetNB,seat,50,0.66,1,False,0.98,0.07692307692307693,1.0,0.04
+fbprophet,seat,50,0,1,False,0.98,0.4347826086956522,0.2777777777777778,1.0
+fbprophetGamma,seat,50,0,1,False,0.98,0.9690721649484536,1.0,0.94
+fbprophetNB,seat,50,0,1,False,0.98,0.98989898989899,1.0,0.98
+fbprophet,seat,50,0,3,True,0.98,0.8498583569405099,0.7389162561576355,1.0
+fbprophetGamma,seat,50,0,3,True,0.98,0.9864864864864865,1.0,0.9733333333333334
+fbprophetNB,seat,50,0,3,True,0.98,0.9864864864864865,1.0,0.9733333333333334
+fbprophet,gift_certificate,50,0.833,1,False,0.98,0.0,0.0,0.0
+fbprophetGamma,gift_certificate,50,0.833,1,False,0.98,0.0055248618784530384,0.003205128205128205,0.02
+fbprophetNB,gift_certificate,50,0.833,1,False,0.98,0.0,0.0,0.0
+fbprophet,gift_certificate,50,0.66,1,False,0.98,0.0,0.0,0.0
+fbprophetGamma,gift_certificate,50,0.66,1,False,0.98,0.016483516483516484,0.009554140127388535,0.06
+fbprophetNB,gift_certificate,50,0.66,1,False,0.98,0.012658227848101266,0.009259259259259259,0.02
+fbprophet,gift_certificate,50,0,1,False,0.98,0.0,0.0,0.0
+fbprophetGamma,gift_certificate,50,0,1,False,0.98,0.08533333333333333,0.04923076923076923,0.32
+fbprophetNB,gift_certificate,50,0,1,False,0.98,0.19318181818181815,0.1349206349206349,0.34
+fbprophet,gift_certificate,50,0,3,True,0.98,0.013245033112582783,1.0,0.006666666666666667
+fbprophetGamma,gift_certificate,50,0,3,True,0.98,0.38879159369527144,0.26365795724465557,0.74
+fbprophetNB,gift_certificate,50,0,3,True,0.98,0.4355828220858895,0.4034090909090909,0.47333333333333333
+fbprophet,"('AAQ-DME', 'auto_checkin')",50,0.833,1,False,0.98,0.0,0.0,0.0
+fbprophetGamma,"('AAQ-DME', 'auto_checkin')",50,0.833,1,False,0.98,0.009080590238365494,0.004672897196261682,0.16
+fbprophetNB,"('AAQ-DME', 'auto_checkin')",50,0.833,1,False,0.98,0.005509641873278237,0.003194888178913738,0.02
+fbprophet,"('AAQ-DME', 'auto_checkin')",50,0.66,1,False,0.98,0.0,0.0,0.0
+fbprophetGamma,"('AAQ-DME', 'auto_checkin')",50,0.66,1,False,0.98,0.013714285714285715,0.007058823529411765,0.24
+fbprophetNB,"('AAQ-DME', 'auto_checkin')",50,0.66,1,False,0.98,0.015706806282722512,0.009036144578313253,0.06
+fbprophet,"('AAQ-DME', 'auto_checkin')",50,0,1,False,0.98,0.0,0.0,0.0
+fbprophetGamma,"('AAQ-DME', 'auto_checkin')",50,0,1,False,0.98,0.01406799531066823,0.007246376811594203,0.24
+fbprophetNB,"('AAQ-DME', 'auto_checkin')",50,0,1,False,0.98,0.033802816901408454,0.019672131147540985,0.12
+fbprophet,"('AAQ-DME', 'auto_checkin')",50,0,3,True,0.98,0.0,0.0,0.0
+fbprophetGamma,"('AAQ-DME', 'auto_checkin')",50,0,3,True,0.98,0.11464968152866242,0.06228373702422145,0.72
+fbprophetNB,"('AAQ-DME', 'auto_checkin')",50,0,3,True,0.98,0.0968421052631579,0.07076923076923076,0.15333333333333332
+fbprophet,"('DME-GDZ', 'auto_checkin')",50,0.833,1,False,0.98,0.0,0.0,0.0
+fbprophetGamma,"('DME-GDZ', 'auto_checkin')",50,0.833,1,False,0.98,0.009216589861751152,0.004744958481613286,0.16
+fbprophetNB,"('DME-GDZ', 'auto_checkin')",50,0.833,1,False,0.98,0.0,0.0,0.0
+fbprophet,"('DME-GDZ', 'auto_checkin')",50,0.66,1,False,0.98,0.0,0.0,0.0
+fbprophetGamma,"('DME-GDZ', 'auto_checkin')",50,0.66,1,False,0.98,0.011507479861910242,0.005924170616113744,0.2
+fbprophetNB,"('DME-GDZ', 'auto_checkin')",50,0.66,1,False,0.98,0.0,0.0,0.0
+fbprophet,"('DME-GDZ', 'auto_checkin')",50,0,1,False,0.98,0.0,0.0,0.0
+fbprophetGamma,"('DME-GDZ', 'auto_checkin')",50,0,1,False,0.98,0.0164126611957796,0.008454106280193236,0.28
+fbprophetNB,"('DME-GDZ', 'auto_checkin')",50,0,1,False,0.98,0.0,0.0,0.0
+fbprophet,"('DME-GDZ', 'auto_checkin')",50,0,3,True,0.98,0.0,0.0,0.0
+fbprophetGamma,"('DME-GDZ', 'auto_checkin')",50,0,3,True,0.98,0.10180275715800637,0.055299539170506916,0.64
+fbprophetNB,"('DME-GDZ', 'auto_checkin')",50,0,3,True,0.98,0.03448275862068966,0.125,0.02
+fbprophet,"('DME-ORY', 'seat')",50,0.833,1,False,0.98,0.0,0.0,0.0
+fbprophetGamma,"('DME-ORY', 'seat')",50,0.833,1,False,0.98,0.004725897920604915,0.002420135527589545,0.1
+fbprophetNB,"('DME-ORY', 'seat')",50,0.833,1,False,0.98,0.0,0.0,0.0
+fbprophet,"('DME-ORY', 'seat')",50,0.66,1,False,0.98,0.0,0.0,0.0
+fbprophetGamma,"('DME-ORY', 'seat')",50,0.66,1,False,0.98,0.0075046904315197,0.0038424591738712775,0.16
+fbprophetNB,"('DME-ORY', 'seat')",50,0.66,1,False,0.98,0.01652892561983471,0.014084507042253521,0.02
+fbprophet,"('DME-ORY', 'seat')",50,0,1,False,0.98,0.0,0.0,0.0
+fbprophetGamma,"('DME-ORY', 'seat')",50,0,1,False,0.98,0.014084507042253523,0.007211538461538462,0.3
+fbprophetNB,"('DME-ORY', 'seat')",50,0,1,False,0.98,0.031746031746031744,0.02631578947368421,0.04
+fbprophet,"('DME-ORY', 'seat')",50,0,3,True,0.98,0.0,0.0,0.0
+fbprophetGamma,"('DME-ORY', 'seat')",50,0,3,True,0.98,0.10131004366812227,0.05420560747663551,0.7733333333333333
+fbprophetNB,"('DME-ORY', 'seat')",50,0,3,True,0.98,0.08071748878923767,0.1232876712328767,0.06
+fbprophet,total,50,0.833,1,False,0.99,0.04938271604938271,0.031088082901554404,0.12
+fbprophetGamma,total,50,0.833,1,False,0.99,0.0,0.0,0.0
+fbprophetNB,total,50,0.833,1,False,0.99,0.0,0.0,0.0
+fbprophet,total,50,0.66,1,False,0.99,0.24060150375939848,0.14814814814814814,0.64
+fbprophetGamma,total,50,0.66,1,False,0.99,0.0,0.0,0.0
+fbprophetNB,total,50,0.66,1,False,0.99,0.11320754716981131,1.0,0.06
+fbprophet,total,50,0,1,False,0.99,0.4132231404958678,0.2604166666666667,1.0
+fbprophetGamma,total,50,0,1,False,0.99,0.9361702127659575,1.0,0.88
+fbprophetNB,total,50,0,1,False,0.99,0.9795918367346939,1.0,0.96
+fbprophet,total,50,0,3,True,0.99,0.8771929824561403,0.78125,1.0
+fbprophetGamma,total,50,0,3,True,0.99,0.9726027397260273,1.0,0.9466666666666667
+fbprophetNB,total,50,0,3,True,0.99,0.983050847457627,1.0,0.9666666666666667
+fbprophet,seat,50,0.833,1,False,0.99,0.0913705583756345,0.061224489795918366,0.18
+fbprophetGamma,seat,50,0.833,1,False,0.99,0.0,0.0,0.0
+fbprophetNB,seat,50,0.833,1,False,0.99,0.0,0.0,0.0
+fbprophet,seat,50,0.66,1,False,0.99,0.2641509433962264,0.1728395061728395,0.56
+fbprophetGamma,seat,50,0.66,1,False,0.99,0.0392156862745098,1.0,0.02
+fbprophetNB,seat,50,0.66,1,False,0.99,0.0392156862745098,1.0,0.02
+fbprophet,seat,50,0,1,False,0.99,0.5235602094240838,0.3546099290780142,1.0
+fbprophetGamma,seat,50,0,1,False,0.99,0.8764044943820225,1.0,0.78
+fbprophetNB,seat,50,0,1,False,0.99,0.98989898989899,1.0,0.98
+fbprophet,seat,50,0,3,True,0.99,0.9345794392523363,0.8771929824561403,1.0
+fbprophetGamma,seat,50,0,3,True,0.99,0.9473684210526316,1.0,0.9
+fbprophetNB,seat,50,0,3,True,0.99,0.9795918367346939,1.0,0.96
+fbprophet,gift_certificate,50,0.833,1,False,0.99,0.0,0.0,0.0
+fbprophetGamma,gift_certificate,50,0.833,1,False,0.99,0.0,0.0,0.0
+fbprophetNB,gift_certificate,50,0.833,1,False,0.99,0.015267175572519083,0.012345679012345678,0.02
+fbprophet,gift_certificate,50,0.66,1,False,0.99,0.0,0.0,0.0
+fbprophetGamma,gift_certificate,50,0.66,1,False,0.99,0.005681818181818182,0.0033112582781456954,0.02
+fbprophetNB,gift_certificate,50,0.66,1,False,0.99,0.014705882352941178,0.011627906976744186,0.02
+fbprophet,gift_certificate,50,0,1,False,0.99,0.0,0.0,0.0
+fbprophetGamma,gift_certificate,50,0,1,False,0.99,0.06145251396648044,0.03571428571428571,0.22
+fbprophetNB,gift_certificate,50,0,1,False,0.99,0.1818181818181818,0.13978494623655913,0.26
+fbprophet,gift_certificate,50,0,3,True,0.99,0.013245033112582783,1.0,0.006666666666666667
+fbprophetGamma,gift_certificate,50,0,3,True,0.99,0.40215439856373436,0.2751842751842752,0.7466666666666667
+fbprophetNB,gift_certificate,50,0,3,True,0.99,0.3882783882783883,0.43089430894308944,0.35333333333333333
+fbprophet,"('AAQ-DME', 'auto_checkin')",50,0.833,1,False,0.99,0.0,0.0,0.0
+fbprophetGamma,"('AAQ-DME', 'auto_checkin')",50,0.833,1,False,0.99,0.011811023622047242,0.006105834464043419,0.18
+fbprophetNB,"('AAQ-DME', 'auto_checkin')",50,0.833,1,False,0.99,0.0,0.0,0.0
+fbprophet,"('AAQ-DME', 'auto_checkin')",50,0.66,1,False,0.99,0.0,0.0,0.0
+fbprophetGamma,"('AAQ-DME', 'auto_checkin')",50,0.66,1,False,0.99,0.014814814814814815,0.007665505226480836,0.22
+fbprophetNB,"('AAQ-DME', 'auto_checkin')",50,0.66,1,False,0.99,0.01,0.006666666666666667,0.02
+fbprophet,"('AAQ-DME', 'auto_checkin')",50,0,1,False,0.99,0.0,0.0,0.0
+fbprophetGamma,"('AAQ-DME', 'auto_checkin')",50,0,1,False,0.99,0.017615176151761516,0.0091164095371669,0.26
+fbprophetNB,"('AAQ-DME', 'auto_checkin')",50,0,1,False,0.99,0.041666666666666664,0.028169014084507043,0.08
+fbprophet,"('AAQ-DME', 'auto_checkin')",50,0,3,True,0.99,0.011904761904761904,0.05555555555555555,0.006666666666666667
+fbprophetGamma,"('AAQ-DME', 'auto_checkin')",50,0,3,True,0.99,0.13054499366286437,0.07212885154061624,0.6866666666666666
+fbprophetNB,"('AAQ-DME', 'auto_checkin')",50,0,3,True,0.99,0.03934426229508197,0.03870967741935484,0.04
+fbprophet,"('DME-GDZ', 'auto_checkin')",50,0.833,1,False,0.99,0.0,0.0,0.0
+fbprophetGamma,"('DME-GDZ', 'auto_checkin')",50,0.833,1,False,0.99,0.008059100067159167,0.004169562195969423,0.12
+fbprophetNB,"('DME-GDZ', 'auto_checkin')",50,0.833,1,False,0.99,0.0,0.0,0.0
+fbprophet,"('DME-GDZ', 'auto_checkin')",50,0.66,1,False,0.99,0.0,0.0,0.0
+fbprophetGamma,"('DME-GDZ', 'auto_checkin')",50,0.66,1,False,0.99,0.006915629322268326,0.0035816618911174787,0.1
+fbprophetNB,"('DME-GDZ', 'auto_checkin')",50,0.66,1,False,0.99,0.0,0.0,0.0
+fbprophet,"('DME-GDZ', 'auto_checkin')",50,0,1,False,0.99,0.0,0.0,0.0
+fbprophetGamma,"('DME-GDZ', 'auto_checkin')",50,0,1,False,0.99,0.012269938650306749,0.006351446718419196,0.18
+fbprophetNB,"('DME-GDZ', 'auto_checkin')",50,0,1,False,0.99,0.0,0.0,0.0
+fbprophet,"('DME-GDZ', 'auto_checkin')",50,0,3,True,0.99,0.0,0.0,0.0
+fbprophetGamma,"('DME-GDZ', 'auto_checkin')",50,0,3,True,0.99,0.10067526089625538,0.05544286680189317,0.5466666666666666
+fbprophetNB,"('DME-GDZ', 'auto_checkin')",50,0,3,True,0.99,0.0,0.0,0.0
+fbprophet,"('DME-ORY', 'seat')",50,0.833,1,False,0.99,0.0,0.0,0.0
+fbprophetGamma,"('DME-ORY', 'seat')",50,0.833,1,False,0.99,0.014256619144602852,0.0073145245559038665,0.28
+fbprophetNB,"('DME-ORY', 'seat')",50,0.833,1,False,0.99,0.0,0.0,0.0
+fbprophet,"('DME-ORY', 'seat')",50,0.66,1,False,0.99,0.0,0.0,0.0
+fbprophetGamma,"('DME-ORY', 'seat')",50,0.66,1,False,0.99,0.013245033112582781,0.006795608991113434,0.26
+fbprophetNB,"('DME-ORY', 'seat')",50,0.66,1,False,0.99,0.0,0.0,0.0
+fbprophet,"('DME-ORY', 'seat')",50,0,1,False,0.99,0.0,0.0,0.0
+fbprophetGamma,"('DME-ORY', 'seat')",50,0,1,False,0.99,0.0183206106870229,0.009399477806788513,0.36
+fbprophetNB,"('DME-ORY', 'seat')",50,0,1,False,0.99,0.03125,0.07142857142857142,0.02
+fbprophet,"('DME-ORY', 'seat')",50,0,3,True,0.99,0.0,0.0,0.0
+fbprophetGamma,"('DME-ORY', 'seat')",50,0,3,True,0.99,0.08481927710843375,0.045714285714285714,0.5866666666666667
+fbprophetNB,"('DME-ORY', 'seat')",50,0,3,True,0.99,0.0,0.0,0.0
+fbprophet,total,50,0.833,1,False,1.0,0.0,0.0,0.0
+fbprophetGamma,total,50,0.833,1,False,1.0,0.0,0.0,0.0
+fbprophetNB,total,50,0.833,1,False,1.0,0.0,0.0,0.0
+fbprophet,total,50,0.66,1,False,1.0,0.2360248447204969,0.17117117117117117,0.38
+fbprophetGamma,total,50,0.66,1,False,1.0,0.0,0.0,0.0
+fbprophetNB,total,50,0.66,1,False,1.0,0.0,0.0,0.0
+fbprophet,total,50,0,1,False,1.0,0.6363636363636364,0.47115384615384615,0.98
+fbprophetGamma,total,50,0,1,False,1.0,0.888888888888889,1.0,0.8
+fbprophetNB,total,50,0,1,False,1.0,0.924731182795699,1.0,0.86
+fbprophet,total,50,0,3,True,1.0,0.9765886287625419,0.9798657718120806,0.9733333333333334
+fbprophetGamma,total,50,0,3,True,1.0,0.9169675090252708,1.0,0.8466666666666667
+fbprophetNB,total,50,0,3,True,1.0,0.9547038327526133,1.0,0.9133333333333333
+fbprophet,seat,50,0.833,1,False,1.0,0.03669724770642202,0.03389830508474576,0.04
+fbprophetGamma,seat,50,0.833,1,False,1.0,0.0,0.0,0.0
+fbprophetNB,seat,50,0.833,1,False,1.0,0.0,0.0,0.0
+fbprophet,seat,50,0.66,1,False,1.0,0.3119266055045872,0.288135593220339,0.34
+fbprophetGamma,seat,50,0.66,1,False,1.0,0.0,0.0,0.0
+fbprophetNB,seat,50,0.66,1,False,1.0,0.0,0.0,0.0
+fbprophet,seat,50,0,1,False,1.0,0.819672131147541,0.6944444444444444,1.0
+fbprophetGamma,seat,50,0,1,False,1.0,0.717948717948718,1.0,0.56
+fbprophetNB,seat,50,0,1,False,1.0,0.8636363636363636,1.0,0.76
+fbprophet,seat,50,0,3,True,1.0,0.98989898989899,1.0,0.98
+fbprophetGamma,seat,50,0,3,True,1.0,0.9285714285714286,1.0,0.8666666666666667
+fbprophetNB,seat,50,0,3,True,1.0,0.9208633093525179,1.0,0.8533333333333334
+fbprophet,gift_certificate,50,0.833,1,False,1.0,0.0,0.0,0.0
+fbprophetGamma,gift_certificate,50,0.833,1,False,1.0,0.0,0.0,0.0
+fbprophetNB,gift_certificate,50,0.833,1,False,1.0,0.0,0.0,0.0
+fbprophet,gift_certificate,50,0.66,1,False,1.0,0.0,0.0,0.0
+fbprophetGamma,gift_certificate,50,0.66,1,False,1.0,0.011494252873563218,0.006711409395973154,0.04
+fbprophetNB,gift_certificate,50,0.66,1,False,1.0,0.0,0.0,0.0
+fbprophet,gift_certificate,50,0,1,False,1.0,0.0,0.0,0.0
+fbprophetGamma,gift_certificate,50,0,1,False,1.0,0.023054755043227664,0.013468013468013467,0.08
+fbprophetNB,gift_certificate,50,0,1,False,1.0,0.0,0.0,0.0
+fbprophet,gift_certificate,50,0,3,True,1.0,0.0,0.0,0.0
+fbprophetGamma,gift_certificate,50,0,3,True,1.0,0.38532110091743116,0.26582278481012656,0.7
+fbprophetNB,gift_certificate,50,0,3,True,1.0,0.0875,0.7,0.04666666666666667
+fbprophet,"('AAQ-DME', 'auto_checkin')",50,0.833,1,False,1.0,0.0,0.0,0.0
+fbprophetGamma,"('AAQ-DME', 'auto_checkin')",50,0.833,1,False,1.0,0.004561003420752565,0.0024183796856106408,0.04
+fbprophetNB,"('AAQ-DME', 'auto_checkin')",50,0.833,1,False,1.0,0.0,0.0,0.0
+fbprophet,"('AAQ-DME', 'auto_checkin')",50,0.66,1,False,1.0,0.0,0.0,0.0
+fbprophetGamma,"('AAQ-DME', 'auto_checkin')",50,0.66,1,False,1.0,0.009367681498829038,0.004975124378109453,0.08
+fbprophetNB,"('AAQ-DME', 'auto_checkin')",50,0.66,1,False,1.0,0.0,0.0,0.0
+fbprophet,"('AAQ-DME', 'auto_checkin')",50,0,1,False,1.0,0.0,0.0,0.0
+fbprophetGamma,"('AAQ-DME', 'auto_checkin')",50,0,1,False,1.0,0.02540415704387991,0.013480392156862746,0.22
+fbprophetNB,"('AAQ-DME', 'auto_checkin')",50,0,1,False,1.0,0.0,0.0,0.0
+fbprophet,"('AAQ-DME', 'auto_checkin')",50,0,3,True,1.0,0.0,0.0,0.0
+fbprophetGamma,"('AAQ-DME', 'auto_checkin')",50,0,3,True,1.0,0.13962635201573254,0.08189158016147635,0.47333333333333333
+fbprophetNB,"('AAQ-DME', 'auto_checkin')",50,0,3,True,1.0,0.0,0.0,0.0
+fbprophet,"('DME-GDZ', 'auto_checkin')",50,0.833,1,False,1.0,0.0,0.0,0.0
+fbprophetGamma,"('DME-GDZ', 'auto_checkin')",50,0.833,1,False,1.0,0.011940298507462687,0.0062827225130890054,0.12
+fbprophetNB,"('DME-GDZ', 'auto_checkin')",50,0.833,1,False,1.0,0.0,0.0,0.0
+fbprophet,"('DME-GDZ', 'auto_checkin')",50,0.66,1,False,1.0,0.0,0.0,0.0
+fbprophetGamma,"('DME-GDZ', 'auto_checkin')",50,0.66,1,False,1.0,0.007774538386783284,0.0040858018386108275,0.08
+fbprophetNB,"('DME-GDZ', 'auto_checkin')",50,0.66,1,False,1.0,0.0,0.0,0.0
+fbprophet,"('DME-GDZ', 'auto_checkin')",50,0,1,False,1.0,0.0,0.0,0.0
+fbprophetGamma,"('DME-GDZ', 'auto_checkin')",50,0,1,False,1.0,0.014056224899598393,0.007399577167019027,0.14
+fbprophetNB,"('DME-GDZ', 'auto_checkin')",50,0,1,False,1.0,0.0,0.0,0.0
+fbprophet,"('DME-GDZ', 'auto_checkin')",50,0,3,True,1.0,0.0,0.0,0.0
+fbprophetGamma,"('DME-GDZ', 'auto_checkin')",50,0,3,True,1.0,0.10189982728842832,0.05853174603174603,0.3933333333333333
+fbprophetNB,"('DME-GDZ', 'auto_checkin')",50,0,3,True,1.0,0.0,0.0,0.0
+fbprophet,"('DME-ORY', 'seat')",50,0.833,1,False,1.0,0.0,0.0,0.0
+fbprophetGamma,"('DME-ORY', 'seat')",50,0.833,1,False,1.0,0.0033277870216306153,0.0018148820326678765,0.02
+fbprophetNB,"('DME-ORY', 'seat')",50,0.833,1,False,1.0,0.0,0.0,0.0
+fbprophet,"('DME-ORY', 'seat')",50,0.66,1,False,1.0,0.0,0.0,0.0
+fbprophetGamma,"('DME-ORY', 'seat')",50,0.66,1,False,1.0,0.010327022375215145,0.005649717514124294,0.06
+fbprophetNB,"('DME-ORY', 'seat')",50,0.66,1,False,1.0,0.0,0.0,0.0
+fbprophet,"('DME-ORY', 'seat')",50,0,1,False,1.0,0.0,0.0,0.0
+fbprophetGamma,"('DME-ORY', 'seat')",50,0,1,False,1.0,0.02763385146804836,0.015122873345935728,0.16
+fbprophetNB,"('DME-ORY', 'seat')",50,0,1,False,1.0,0.0,0.0,0.0
+fbprophet,"('DME-ORY', 'seat')",50,0,3,True,1.0,0.0,0.0,0.0
+fbprophetGamma,"('DME-ORY', 'seat')",50,0,3,True,1.0,0.061403508771929835,0.03932584269662921,0.14
+fbprophetNB,"('DME-ORY', 'seat')",50,0,3,True,1.0,0.0,0.0,0.0

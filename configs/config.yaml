@@ -1,0 +1,25 @@
+mode: 2
+columns:
+  - total
+  - seat
+  - gift_certificate
+  - ('AAQ-DME', 'auto_checkin')
+  - ('DME-GDZ', 'auto_checkin')
+  - ('DME-ORY', 'seat')
+scenarios:
+#   - anom_coeff: 0.833
+#     num_anomalies: 1
+#     in_a_row: False
+#   - anom_coeff: 0.66
+#     num_anomalies: 1
+#     in_a_row: False
+#   - anom_coeff: 0
+#     num_anomalies: 1
+#     in_a_row: False
+  - anom_coeff: 0
+    num_anomalies: 3
+    in_a_row: True
+models:
+  - Prophet
+#   - ProphetGamma
+#   - ProphetNB
